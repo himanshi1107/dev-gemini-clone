@@ -6,7 +6,7 @@ pipeline {
 environment {
     SONAR_HOME = tool "Sonar"
     DOCKER_IMAGE  = "gemininip"
-    GIT_REPO      = "https://github.com/Amitabh-DevOps/dev-gemini-clone.git"
+    GIT_REPO      = "https://github.com/himanshi1107/dev-gemini-clone.git"
     GIT_BRANCH    = "kind"
     DOCKERHUB_USERNAME = "amitabhdevops"
     DOCKER_IMAGE_NAME = "${DOCKERHUB_USERNAME}/${DOCKER_IMAGE}"
@@ -175,7 +175,7 @@ post {
                     </p>
                 </div>
             """,
-            to: "amitabhdevops2024@gmail.com",
+            to: "himanshibobde@gmail.com",
             from: "jenkins@example.com",
             mimeType: 'text/html',
             attachmentsPattern: '**/table-report.html'
